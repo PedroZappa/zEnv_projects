@@ -24,17 +24,18 @@ def load_repos():
             data["categories"] = {}  # Ensure categories exist
         return data
 
-def clone_or_update_repo(category, repo_url):
+def clone_or_update_repo(category, repo_info):
     """
     Clone or update a Git repository.
 
     Args:
         category (str): The category under which the repository is organized.
-        repo_url (str): The URL of the Git repository.
+        repo_info (str): Git repository info (name & url).
     """
+    repo_name = repo_info["name"]
+    repo_url = repo_info["url"]
     # Construct paths for the category and repository
     category_path = os.path.join(C0D3_DIR, str(category))
-    repo_name = repo_url.split("/")[-1].replace(".git", "")
     repo_path = os.path.join(category_path, repo_name)
 
     # Ensure the category directory exists
