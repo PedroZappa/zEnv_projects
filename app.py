@@ -59,6 +59,12 @@ def main():
     """
     Main function to manage the cloning and updating of repositories.
     """
+    # Check if the SSH directory exists
+    ssh_dir = os.path.expanduser("~/.ssh")
+    if not os.path.exists(ssh_dir):
+        logger.error("SSH directory not found. Please set up SSH authentication before running this script.")
+        return
+
     # Ensure the base directory exists
     os.makedirs(C0D3_DIR, exist_ok=True)
     # Load repository configuration
