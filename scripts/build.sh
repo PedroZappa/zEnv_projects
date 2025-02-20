@@ -6,18 +6,21 @@
 # -o => prevent errors in a pipeline from being masked.
 set -euo pipefail
 
+echo "Creating a virtual environment in the .venv directory..."
 if [ ! -d .venv ]; then
-    # Create a virtual environment in the .venv directory if it doesn't exist
+    
+    echo "Activating the virtual environment..."
     python3 -m venv .venv
-    # Activate the virtual environment
+    
+    echo "Upgrading pip to the latest version..."
     source .venv/bin/activate
-    # Upgrade pip to the latest version
+    
+    echo "Installing the package in editable mode with development dependencies..."
     pip install --upgrade pip
-    # Install the package in editable mode with development dependencies
+    echo "Installing [dev] packages..."
     pip install -e .[dev]
-    # Print a message indicating that the virtual environment has been created
+    
     echo ".venv created"
-    # List the installed packages in the virtual environment
+    echo "Listing installed packages in the virtual environment..."
     pip list
 fi
-
