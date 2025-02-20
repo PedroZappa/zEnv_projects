@@ -1,0 +1,10 @@
+categories:
+  DEV:
+    - "https://github.com/PedroZappa/zEnv_projects"
+  42:
+    - "https://github.com/PedroZappa/42_CPP.git"
+    - "https://github.com/PedroZappa/42_webserv.git"
+    - "https://github.com/PedroZappa/eddie_42_slackbot.git"
+  AUDIO:
+    - "https://github.com/PedroZappa/zSynthZedro.git"
+    - "https://github.com/PedroZappa/zosclib.git"
