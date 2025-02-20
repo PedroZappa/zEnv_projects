@@ -46,7 +46,7 @@ def clone_or_update_repo(category, repo_info):
         print(f"""
 Updating {Fore.GREEN}{repo_name}{Style.RESET_ALL}...
         """)
-        subprocess.run(["git", "-C", repo_path, "pull"], check=True)
+        subprocess.run(["git", "-C", repo_path, "pull --recurse-submodules"], check=True)
     else:
         # Clone the repository if it does not exist
         print(f"""
