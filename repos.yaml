@@ -14,6 +14,8 @@ categories:
       url: "git@github.com:PedroZappa/TalkSee-streamlit.git"
     - name: "randgen-z"
       url: "git@github.com:PedroZappa/randgen-z.git"
+    - name: "zedro-cv"
+      url "git@github.com:PedroZappa/zedro-cv.git"
 
   42:
     - name: "000_CC"
