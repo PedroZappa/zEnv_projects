@@ -54,6 +54,8 @@ categories:
       url: "git@github.com:PedroZappa/eddie_42_slackbot.git"
     - name: "xxx_sogrape_hackathon"
       url: "git@github.com:PedroZappa/42_sogrape_hackathon.git"
+    - name: "42cadet_bootstrap"
+      url: "git@github.com:PedroZappa/42cadet_bootstrap.git"
   AUDIO:
     - name: "zSynthZero"
       url: "git@github.com:PedroZappa/zSynthZero.git"
