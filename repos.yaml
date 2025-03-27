@@ -69,4 +69,5 @@ categories:
       url: "git@github.com:PedroZappa/threads_tests.git"
     - name: "malloc_tests"
       url: "git@github.com:PedroZappa/malloc_tests.git"
-    
+    - name: "docker-getting-started"
+      url: "git@github.com:PedroZappa/docker-getting-started.git"
