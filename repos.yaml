@@ -40,7 +40,7 @@ categories:
       url: "git@github.com:PedroZappa/42_philosophers.git"
     - name: "009_minishell"
       url: "git@github.com:PedroZappa/42_minishell.git"
-    - name: "010_bub3d"
+    - name: "010_cub3d"
       url: "git@github.com:PedroZappa/42_cub3d.git"
     - name: "011_CPP"
       url: "git@github.com:PedroZappa/42_CPP.git"
