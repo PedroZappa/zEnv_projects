@@ -75,3 +75,5 @@ categories:
       url: "git@github.com:PedroZappa/docker-getting-started.git"
     - name: "babylonjs_gametest"
       url: "git@github.com:PedroZappa/babylonjs_gametest.git"
+    - name: "babylonjs_pong"
+      url: "git@github.com:PedroZappa/babylonjs_pong.git"
