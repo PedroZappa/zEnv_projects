@@ -81,5 +81,7 @@ categories:
       url: "git@github.com:PedroZappa/babylonjs_pong.git"
     - name: "babylonjs_tests"
       url: "git@github.com:PedroZappa/babylonjs_tests.git"
+    - name: "babylonjs_html"
+      url: "git@github.com:PedroZappa/babylonjs_html.git"
     - name: "typescript_tests"
       url: "git@github.com:PedroZappa/typescript_tests.git"
